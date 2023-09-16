@@ -1,0 +1,580 @@
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+# Tłumaczenie na polski zrobione przez użykownika Chamilion.
+
+Messages:
+  RespectingClaims:
+    Text: Teraz Szanujesz Działkę.
+  IgnoringClaims:
+    Text: Teraz Ignorujesz Działkę.
+  SuccessfulAbandon:
+    Text: Działka Porzucona.  Masz teraz {0} dostępnych bloków działki.
+    Notes: '0: pozostałych bloków'
+  RestoreNatureActivate:
+    Text: Gotowy do przywrócenia trochę natury!  Kliknij PPM by przywrócić naturę, i użyj /BasicClaims
+      by zaprzestać.
+  RestoreNatureAggressiveActivate:
+    Text: Tryb Agresji aktywny. NIE używaj tego pod czymkolwiek co chcesz zachować!
+    Kliknij PPM by agresywnie przywrócić naturę, i użyj /BasicClaims by zaprzestać.
+  FillModeActive:
+    Text: Tryb wypełniania aktywowane w promieniu {0}.  Naciśnij PPM by wypełnić zaznaczony obszar.
+    Notes: '0: wypełnij pole'
+  TransferClaimPermission:
+    Text: To polecenie wymaga pozwolenia działki od admina.
+  TransferClaimMissing:
+    Text: Tu nie ma żadnej działki.  Złóż wniosek na przeniesienie administracyjne działki.
+  TransferClaimAdminOnly:
+    Text: Tylko działki administracyjne mogą być przeniesione na gracza.
+  PlayerNotFound2:
+    Text: Żaden gracz o tym imieniu nie logował się tutaj.
+  TransferTopLevel:
+    Text: Przenoszone mogą być wyłącznie działki najwyższego poziomu (nie podziały). Stój na zewnątrz
+      pododdziału i spróbuj ponownie.
+  TransferSuccess:
+    Text: Działka przeniesiona.
+  TrustListNoClaim:
+    Text: Stań w środku działki, w którym jesteś zainteresowany.
+  ClearPermsOwnerOnly:
+    Text: Tylko działka właściciela może wyczyścić wszystkie pozwolenia.
+  UntrustIndividualAllClaims:
+    Text: Odebrano od {0} dostęp do WSZYSTKICH twoich działek.  By ustawić pozwolenie dla jednej działki
+      stań w środku.
+    Notes: '0: nieufnych graczy'
+  UntrustEveryoneAllClaims:
+    Text: Usunięto pozwolenie WSZYSTKICH twoich działek.  By ustawić pozwolenie dla jednej działki
+      stań w środku.
+  NoPermissionTrust:
+    Text: Nie masz {0} pozwoleń by zarządzać pozwoleniami tutaj.
+    Notes: '0: Prawa właściciela'' imię'
+  ClearPermissionsOneClaim:
+    Text: Usunięto pozwolenie w tym polu działki.  By ustawić pozwolenie dla jednej działki
+      stań w środku.
+  UntrustIndividualSingleClaim:
+    Text: Odebrano od {0} dostęp w tym polu działki.  By ustawić pozwolenie dla WSZYSTKICH twoich działek,
+      stań na zewnątrz.
+    Notes: '0: nieufnych graczy'
+  OnlySellBlocks:
+    Text: Bloki działek można tylko sprzedać, nie kupić.
+  BlockPurchaseCost:
+    Text: Każdy blok działki kosztuje {0}.  Twoje saldo to {1}.
+    Notes: '0: koszt jednego bloku; 1: gracz'' konto saldo'
+  ClaimBlockLimit:
+    Text: Osiągnąłeś swój limit bloków działki.  Nie możesz dokupywać więcej.
+  InsufficientFunds:
+    Text: Nie masz dosyć pieniędzy.  Potrzebujesz {0}, ale posiadasz tylko {1}.
+    Notes: '0: totalny koszt; 1: gracza'' konto saldo'
+  MaxBonusReached:
+    Text: Nie można kupić od {0} więcej bloków działki. Serwer posiada {1} bonus
+      bloków działek.
+    Notes: '0: Liczba Bloków; 1: Bonusowy limit działek'
+  PurchaseConfirmation:
+    Text: Wycofano {0} z twojego konta.  Masz teraz {1} dostępnych bloków działki.
+    Notes: '0: totalny koszt; 1: pozostało bloków'
+  OnlyPurchaseBlocks:
+    Text: Bloki działki mogą być tylko kupione, nie sprzedane.
+  BlockSaleValue:
+    Text: Każdy blok działki jest wart {0}.  Masz teraz {1} dostępny do sprzedaży.
+    Notes: '0: wartość bloku; 1: dostępne bloki'
+  NotEnoughBlocksForSale:
+    Text: Nie masz tyle bloków działki dostępnych do sprzedaży.
+  BlockSaleConfirmation:
+    Text: Wpłacono {0} do twojego konta.  Masz teraz {1} dostępnych bloków działki.
+    Notes: '0: ilości wpłaconej; 1: pozostałe bloki'
+  AdminClaimsMode:
+    Text: Tryb administracyjnej działki jest aktywny.  Jakiekolwiek działki będą stworzone za darmo
+    oraz będą edytowalne przez innych adminów
+  BasicClaimsMode:
+    Text: Powrócono do podstawowego trybu tworzenia działki.
+  SubdivisionMode:
+    Text: Tryb Podziału.  Użyj łopaty do stworzenia podziału twoich istniejących działek.
+    Użyj /basicclaims aby wyjść.
+  SubdivisionVideo2:
+    Text: 'Kliknji by dostać pomoc o podziale: {0}'
+    Notes: 0:video URL
+  DeleteClaimMissing:
+    Text: Tu nie ma żadnych działek.
+  DeletionSubdivisionWarning:
+    Text: Ta działka posiada podziały.  Jeżeli jesteś pewien, że chcesz to usunąć,
+      użyj /DeleteClaim jeszcze raz.
+  DeleteSuccess:
+    Text: Działka usunięta
+  CantDeleteAdminClaim:
+    Text: Nie masz praw do usunięcia działki admina.
+  DeleteAllSuccess:
+    Text: Usunięto wszystkie od {0} działki.
+    Notes: '0: owner''s name'
+  NoDeletePermission:
+    Text: Nie masz uprawnień by usunąć działki.
+  AllAdminDeleted:
+    Text: Usunięto wszystkie działki admina.
+  AdjustBlocksSuccess:
+    Text: 'poprawiono od {0}' bonusowe bloki działki o {1}.  Nowy totalny bonus bloków: {2}.'
+    Notes: '0: player; 1: adjustment; 2: new total'
+  NotTrappedHere:
+    Text: Możesz budować tutaj.  Ratuj się.
+  RescuePending:
+    Text: Jeżeli się nie ruszysz przez 10 sekund, wyteleportujesz się stąd.  Proszę czekaj.
+  NonSiegeWorld:
+    Text: Oblężenie jest tutaj wyłączone.
+  AlreadySieging:
+    Text: Już udzielasz się w oblężeniu.
+  NotSiegableThere:
+    Text: '{0} nie jest broniony tutaj.'
+    Notes: '0: defending player'
+  SiegeTooFarAway:
+    Text: jesteś zbyt daleko oblężenia.
+  NoSiegeYourself:
+    Text: Nie możesz oblężać siebie, nie wygłupiaj się.
+  NoSiegeDefenseless:
+    Text: Ten gracz jest bezbronny.  Wybierz sobie kogoś innego.
+  AlreadyUnderSiegePlayer:
+    Text: '{0} Jest już pod oblężeniem.  Dołącz do imprezy!'
+    Notes: '0: defending player'
+  AlreadyUnderSiegeArea:
+    Text: Te miejsce już jest pod oblężeniem.  Dołącz do imprezy!
+  NoSiegeAdminClaim:
+    Text: Oblężenie jest wyłączone w tym miejscu.
+  SiegeOnCooldown:
+    Text: Jesteś dalej na czasie odnowienia do oblężenia dla tego obrońcy lub działki.  Znajdź innego.
+      victim.
+  SiegeAlert:
+    Text: Jesteś pod oblężeniem!  Jeśli się wylogujesz teraz to zginiesz.  Musisz pokonać
+      {0}, poczekaj aż się podda, lub ucieknie.
+    Notes: '0: attacker name'
+  SiegeConfirmed:
+    Text: Oblężenie się zaczeło!  Jeśli się wylogujesz teraz to zginiesz.  Musisz pokonać
+      {0}, wygonić go, lub zaakceptować porażki i odejść.
+    Notes: '0: defender name'
+  AbandonClaimMissing:
+    Text: Stań w działce którą chcesz usunąć, lub rozważ /AbandonAllClaims.
+  NotYourClaim:
+    Text: To nie jest twoja działka.
+  DeleteTopLevelClaim:
+    Text: By usunąć podział, stań w środku niej.  w przeciwnym razie, użyj /AbandonTopLevelClaim
+      by usunąć tą działkę i jej wszystkie podziały.
+  AbandonSuccess:
+    Text: Działka porzucona.  Masz teraz {0} Dostępnych bloków działki.
+    Notes: '0: remaining claim blocks'
+  ConfirmAbandonAllClaims:
+    Text: Czy jesteś pewien, że chcesz porzucić WSZYSTKIE twoje działki?  Proszę potwierdź komendą
+      /AbandonAllClaims
+  CantGrantThatPermission:
+    Text: Nie możesz dać pozwolenia, której sam nie posiadasz.
+  GrantPermissionNoClaim:
+    Text: Stań w środku działki, w którym chcesz udzielić pozwolenia.
+  GrantPermissionConfirmation:
+    Text: Podarowano {0} pozwolenie dla {1} {2}.
+    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+  ManageUniversalPermissionsInstruction:
+    Text: By zarządzać pozwoleniami dla WSZYSTKICH swoich działek, stań na zewnątrz.
+  ManageOneClaimPermissionsInstruction:
+    Text: By zarządzać pozwoleniami dla specyficznej działki, stań w środku niej.
+  CollectivePublic:
+    Text: publiczność
+    Notes: as in 'granted the public permission to...'
+  BuildPermission:
+    Text: Budowa
+  ContainersPermission:
+    Text: dostęp do kontenerów i zwierząt
+  AccessPermission:
+    Text: użyj przyciski i dźwignie
+  PermissionsPermission:
+    Text: zarządzaj pozwoleniami
+  LocationCurrentClaim:
+    Text: w tej działce
+  LocationAllClaims:
+    Text: w wszystkich twoich działkach
+  PvPImmunityStart:
+    Text: Jesteś broniony przed atakmi innych graczy tak długo jak twój ekwipunek
+      jest pusty.
+  SiegeNoDrop:
+    Text: Nie możesz rozdawać przedmiotów podczas udziału oblężenia.
+  DonateItemsInstruction:
+    Text: By rozdać przedmioty w twojej ręce, Naciśnji LPM na skrzynie jeszcze raz.
+  ChestFull:
+    Text: Ta skrzynia jest pełna.
+  DonationSuccess:
+    Text: Przedmioty przeniesione do skrzyni!
+  PlayerTooCloseForFire2:
+    Text: Nie możesz rozpocząć ognia tak blisko innego gracza.
+  TooDeepToClaim:
+    Text: Ta skrznia nie jest broniona, ponieważ jest głęboko podziemią.  Rozważ
+      przemieszczenie jej.
+  ChestClaimConfirmation:
+    Text: Ta skrzynia jest broniona.
+  AutomaticClaimNotification:
+    Text: Ta skrzynia i pobliskie bloki są bezpieczne przed niszczeniem i kradzieżą.
+  AutomaticClaimOtherClaimTooClose:
+    Text: Nie można stworzyć działki dla twojej skrzyni, there is another claim too close!
+  UnprotectedChestWarning:
+    Text: Ta skrzynia NIE jest broniona.  Rozważ używania złotej łopaty by rozszerzyć
+      istniejącą działkę lub stworzyć nową.
+  ThatPlayerPvPImmune:
+    Text: Nie możesz ranić bezbronnych graczy.
+  CantFightWhileImmune:
+    Text: Nie możesz walczyć z kimś w czasie gdy jesteś broniony od PVP.
+  NoDamageClaimedEntity:
+    Text: To należy do {0}.
+    Notes: '0: owner name'
+  ShovelBasicClaimMode:
+    Text: Łopata wróciła do podstawowego trybu działek.
+  RemainingBlocks:
+    Text: Możesz zająć aż do {0} bloków.
+    Notes: '0: remaining blocks'
+  CreativeBasicsVideo2:
+    Text: 'Kliknij aby zdobyć pomoc o ziemie działki: {0}'
+    Notes: '{0}: video URL'
+  SurvivalBasicsVideo2:
+    Text: 'Kliknij aby zdobyć pomoc o ziemie działki: {0}'
+    Notes: '{0}: video URL'
+  TrappedChatKeyword:
+    Text: uwięziony;utknięty
+    Notes: When mentioned in chat, players get information about the /trapped command
+      (multiple words can be separated with semi-colons)
+  TrappedInstructions:
+    Text: Czy jesteś uwięziony na kogoś działce?  Spróbuj napisać /trapped.
+  PvPNoDrop:
+    Text: Nie możesz teraz upuszczać przedmiotów podczas PVP.
+  SiegeNoTeleport:
+    Text: Nie możesz teleportować się poza obszar oblężonego pola.
+  BesiegedNoTeleport:
+    Text: Nie możesz teleportować się do obszaru oblężonego pola.
+  SiegeNoContainers:
+    Text: Nie masz dostępu do kontenerów podczas bycia w polu oblężenia.
+  PvPNoContainers:
+    Text: Nie masz dostępu do kontenerów podczas walki PVP.
+  PvPImmunityEnd:
+    Text: Możesz teraz walczyć z innymi graczami.
+  NoBedPermission:
+    Text: '{0} Nie dał ci zezwolenia na spanie tutaj'
+    Notes: '0: claim owner'
+  NoWildernessBuckets:
+    Text: Wiadra można wyrzucać wyłącznie wewnątrz swojej działki lub pod ziemią.
+  NoLavaNearOtherPlayer:
+    Text: Nie możesz stawiać lawy tak blisko {0}.
+    Notes: '0: nearby player'
+  TooFarAway:
+    Text: To jest zbyt daleko.
+  BlockNotClaimed:
+    Text: Nikt nie zajął tutaj działki.
+  BlockClaimed:
+    Text: Ten blok został przejęty przez {0}.
+    Notes: '0: claim owner'
+  SiegeNoShovel:
+    Text: Nie możesz używać swojej łopaty podczas uczęszczania oblężenia.
+  RestoreNaturePlayerInChunk:
+    Text: Nie udało się odnowić.  {0} jest w tym chunku.
+    Notes: '0: nearby player'
+  NoCreateClaimPermission:
+    Text: Nie masz praw by zająć ten ląd.
+  ResizeNeedMoreBlocks:
+    Text: Nie masz dosyć bloków na tą wielkość.  Potrzebujesz {0} więcej.
+    Notes: '0: how many needed'
+  NoCreativeUnClaim:
+    Text: Nie możesz anulować zajmowania pola.  Możesz tylko zrobić większą działke lub
+      Zrobić kolejne działki.
+  ClaimResizeSuccess:
+    Text: Działka zmodyfikowana.  {0} dostępne bloki działki.
+    Notes: '0: remaining blocks'
+  ResizeFailOverlap:
+    Text: Nie możesz modyfikować tutaj ponieważ zderzyło by się to z inną działką.
+  ResizeStart:
+    Text: Modyfikowanie działki.  Użyj swojej łopaty jeszcze raz na swojej nowej lokacji w rogu.
+  ResizeFailOverlapSubdivision:
+    Text: Nie możesz stworzyć podziału tutaj, ponieważ zderza się tutaj z innym podziałem.  Rozważ
+      /abandonclaim by je usunąć, lub użyj łopaty na rogu by zmodyfikować jej wielkość.
+  SubdivisionStart:
+    Text: Podział rogu ustawiony!  Użyj łopaty na lokacji dla drugiego
+      rogu tego nowego podziału.
+  CreateSubdivisionOverlap:
+    Text: Twoje zaznaczone pole zderza się z kolejnym podziałem.
+  SubdivisionSuccess:
+    Text: Podział stworzony!  Użyj /trust by dzielić się z przyjaciółmi.
+  CreateClaimFailOverlap:
+    Text: Nie możesz stworzyć tutaj działki, ponieważ zderzałoby się z twoją inną działką.  Użyj
+      /abandonclaim by ją usunąć, lub użyj łopaty na rogu by ją zmodyfikować.
+  CreateClaimFailOverlapOtherPlayer:
+    Text: Nie możesz stworzyć tutaj działki bo zderzałoby się z działką {0}.
+    Notes: '0: other claim owner'
+  ClaimsDisabledWorld:
+    Text: Działki są wyłączone w tym świecie.
+  ClaimStart:
+    Text: Róg działki ustawiony!  Użyj łopaty jeszcze raz na drugiej stronie rogu by przejąć
+      prostokąt tego lądu.  By anulować, schowaj swoją łopatę.
+  NewClaimTooNarrow:
+    Text: Ta działka byłaby zbyt mała.  Jakiekolwiek działki powinny być conajmniej {0} bloków szerokie.
+    Notes: '0: minimum claim width'
+  CreateClaimInsufficientBlocks:
+    Text: Nie masz dosyć bloków by przejąć to pole.  Potrzebujesz {0} więcej
+      bloków.
+    Notes: '0: additional blocks needed'
+  AbandonClaimAdvertisement:
+    Text: By usunąć działkę i zwolnić swój limit bloków, użyj /AbandonClaim.
+  CreateClaimFailOverlapShort:
+    Text: Twoje wyznaczone pole zderza się z inną działką.
+  CreateClaimSuccess:
+    Text: Działka stworzona!  Użyj /trust by dzielić się nią z innymi.
+  SiegeWinDoorsOpen:
+    Text: Gratulacje!  Przyciski i dźwignie są tymczasowo odblokowane.
+  RescueAbortedMoved:
+    Text: Przesunąłeś się!  Pomoc anulowana.
+  SiegeDoorsLockedEjection:
+    Text: Czas grabieży minął!  Wyrzucono z działki.
+  NoModifyDuringSiege:
+    Text: Działki nie mogą być modyfikowane podczas oblężenia.
+  OnlyOwnersModifyClaims:
+    Text: Tylko {0} może modyfikować tą działkę.
+    Notes: '0: owner name'
+  NoBuildUnderSiege:
+    Text: Ta działka jest pod oblężeniem przez {0}.  Nikt nie może tutaj budować.
+    Notes: '0: attacker name'
+  NoBuildPvP:
+    Text: Nie możesz budować w działkach podczas walki PVP.
+  NoBuildPermission:
+    Text: Nie masz pozwoleń od {0} by tu budować.
+    Notes: '0: owner name'
+  NonSiegeMaterial:
+    Text: Ten materiał jest zbyt silny by go zniszczyć.
+  NoOwnerBuildUnderSiege:
+    Text: Nie możesz robić zmian podczas oblężenia.
+  NoAccessPermission:
+    Text: Nie masz pozwoleń od {0} by tego używać.
+    Notes: '0: owner name.  access permission controls buttons, levers, and beds'
+  NoContainersSiege:
+    Text: Ta działka jest pod oblężeniem przez {0}.  Nikt nie ma teraz dostępu do kontenerów.
+    Notes: '0: attacker name'
+  NoContainersPermission:
+    Text: Nie masz pozwoleń od {0} by z tego korzystać.
+    Notes: '0: owner''s name.  containers also include crafting blocks'
+  OwnerNameForAdminClaims:
+    Text: Administrator
+    Notes: as in 'You don't have an administrator's permission to build here.'
+  ClaimTooSmallForEntities:
+    Text: Działka nie jest duża na to.  Spróbuj ją zwiększyć.
+  TooManyEntitiesInClaim:
+    Text: Ta działka ma zbyt dużo jednostek.  Spróbuj zwiększyć tą działkę lub
+      usunąć trochę zwierząt, stworów, obrazów, wagonów.
+  YouHaveNoClaims:
+    Text: Nie masz żadnych działek.
+  ConfirmFluidRemoval:
+    Text: Porzucanie tej działki usunie lawę z tej działki.  Jeżeli jesteś pewien,
+      użyj /AbandonClaim jeszcze raz.
+  AutoBanNotify:
+    Text: Automatycznie zbanowano {0}({1}).  Zobacz szczególy w zapisach.
+  AdjustGroupBlocksSuccess:
+    Text: 'Dostosowano bloki działki dla graczy z pozwoleniem {0} od {1}.
+      total: {2}.'
+    Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
+  InvalidPermissionID:
+    Text: Proszę podać nazwę gracza, lub pozwolenie w [nawiasach].
+  HowToClaimRegex:
+    Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
+    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
+      to tell players about the demo video when they ask how to claim land.
+  NoBuildOutsideClaims:
+    Text: Nie możesz budować tu chyba że przejmiesz ten ląd najpierw.
+  PlayerOfflineTime:
+    Text: '  Ostatnio zalogowany: {0} dni temu.'
+    Notes: '0: number of full days since last login'
+  BuildingOutsideClaims:
+    Text: Inni gracze też mogą tu budować.  Rozważ nad budowaniem tutaj działki by bronić
+      twojej pracy!
+  TrappedWontWorkHere:
+    Text: Przepraszamy nie możemy znaleźć bezpiecznego miejsca by cie wyteleportować.  Skontaktuj się z adminem.
+  CommandBannedInPvP:
+    Text: Nie możesz użwać tej komendy podczas walki PVP.
+  UnclaimCleanupWarning:
+    Text: Tą działke co anulowałeś mogą modyfikować inni gracze, albo przeczyszczone
+      przez adminów.  Jeżeli zbudowałeś tu coś co chcesz przechować, powinieneś zachować
+      tą działkę.
+  BuySellNotConfigured:
+    Text: Przepraszamy, sprzedawanie lub kupywanie bloków jest wyłączone.
+  NoTeleportPvPCombat:
+    Text: Nie możesz się teleportować gdy walczysz z innym graczem.
+  NoTNTDamageAboveSeaLevel:
+    Text: 'Uwaga: TNT nie niszczy bloków nad poziomem morza.'
+  NoTNTDamageClaims:
+    Text: 'Uwaga: TNT Nie niszczy bloków działki.'
+  IgnoreClaimsAdvertisement:
+    Text: By zastąpić, użyj /IgnoreClaims.
+  NoPermissionForCommand:
+    Text: Nie masz zezwoleń by to zrobić.
+  ClaimsListNoPermission:
+    Text: Nie masz zezwoleń by dostać informacje o działce gracza.
+  ExplosivesDisabled:
+    Text: Ta działka teraz jest chroniona przed eksplozjami.  Użyj /ClaimExplosions jeszcze raz
+      by deaktywować.
+  ExplosivesEnabled:
+    Text: Ta działka jest teraz wrażliwa na eksplozje.  Użyj /ClaimExplosions jeszcze raz
+      by włączyć obronę.
+  ClaimExplosivesAdvertisement:
+    Text: By pozwolić na niszczenie bloków działki za pomocą eksplozji, użyj /ClaimExplosions.
+  PlayerInPvPSafeZone:
+    Text: Ten gracz jest w strefie bezpiecznej od PVP.
+  NoPistonsOutsideClaims:
+    Text: 'Uwaga: Tłoki nie będą wysuwać bloki poza działkę.'
+  SoftMuted:
+    Text: Lekkie-wyciszenie {0}.
+    Notes: '0: The changed player''s name.'
+  UnSoftMuted:
+    Text: Lekkie-odciszenie {0}.
+    Notes: '0: The changed player''s name.'
+  DropUnlockAdvertisement:
+    Text: Inni gracze nie mogą podnieść twoich przedmiotów chyba, że najpierw wpiszesz /UnlockDrops.
+  PickupBlockedExplanation:
+    Text: Nie możesz tego podnieś póki {0} nie użyje /UnlockDrops.
+    Notes: '0: The item stack''s owner.'
+  DropUnlockConfirmation:
+    Text: Odblokowano twoje upuszczone przedmioty.  Inni gracze mogą teraz je podnosić (aż znowu nie zginiesz)
+  DropUnlockOthersConfirmation:
+    Text: Odblokowano od {0} upuszczone przedmioty.
+    Notes: '0: The owner of the unlocked drops.'
+  AdvertiseACandACB:
+    Text: Możesz teraz użyć /ACB By dać sobie więcej bloków działki, lub /AdminClaims by
+      stworzyć darmową działkę admina.
+  AdvertiseAdminClaims:
+    Text: Możesz teraz stworzyć działkę administracyjną zamiast używać /AdminClaims,
+      z którą byś musiał się dzielić z innymi adminami.
+  AdvertiseACB:
+    Text: Możesz teraz użyć /ACB by dać sobie więcej bloków działki.
+  NotYourPet:
+    Text: To należy do {0} aż nie będzie tobie podane /GivePet.
+    Notes: '0: owner name'
+  PetGiveawayConfirmation:
+    Text: Zmieniono właściciela Zwierzęcia.
+  PetTransferCancellation:
+    Text: Rozdanie zwierzaka anulowano.
+  ReadyToTransferPet:
+    Text: Gotowy do przeniesienia!  Kliknji PPM na zwierzaka co chcesz oddać, lub anuluj
+      używając /GivePet cancel.
+  AvoidGriefClaimLand:
+    Text: Powstrzymaj niszczeniu!  Jeżeli zrobisz działkę, to będzie ona bezpieczna od graczy.
+  BecomeMayor:
+    Text: Podziel swoją działkę i stań się burmistrzem!
+  ClaimCreationFailedOverClaimCountLimit:
+    Text: Dotarłeś do limitu ilości swoich działek.  Użyj /AbandonClaim by usunąć jedno
+      przed tworzeniem kolejnej działki.
+  CreateClaimFailOverlapRegion:
+    Text: Nie możesz zająć wszystkiego tutaj ponieważ nie możesz tu budować.
+  ResizeFailOverlapRegion:
+    Text: Nie masz pozwoleń tu budować, więc nie możesz zająć tego pola.
+  ShowNearbyClaims:
+    Text: Znaleziono {0} ląd działki.
+    Notes: '0: Number of claims found.'
+  NoChatUntilMove:
+    Text: Przepraszamy, ale musisz trochę pograć by rozmawiać.  Dostajemy dużo
+      spammerów tutaj.  :)
+  SiegeImmune:
+    Text: Ten gracz jest odporny na /siege.
+  SetClaimBlocksSuccess:
+    Text: Zaktualizowano naliczone bloki działki.
+  IgnoreConfirmation:
+    Text: Od teraz ignorujesz wiadomości od tego gracza.
+  NotIgnoringPlayer:
+    Text: Od teraz nie ignorujesz tego gracza.
+  UnIgnoreConfirmation:
+    Text: Już nie ignorujesz wiadomości od tego gracza.
+  SeparateConfirmation:
+    Text: Teraz ci gracze będą się ignorować na czacie.
+  UnSeparateConfirmation:
+    Text: Teraz ci graczę się nie ignorują na czacie.
+  NotIgnoringAnyone:
+    Text: Nie ignorujesz nikogo.
+  TrustListHeader:
+    Text: 'Wyraźne uprawnienia tutaj:'
+  Manage:
+    Text: Zarządzaj
+  Build:
+    Text: Buduj
+  Containers:
+    Text: Kontenery
+  Access:
+    Text: Dostęp
+  HasSubclaimRestriction:
+    Text: Ta działka podrzędna nie dziedziczy uprawnień od elementu nadrzędnego
+  StartBlockMath:
+    Text: '{0} bloków od grania + {1} bonus = {2} ogółem.'
+  ClaimsListHeader:
+    Text: 'Działki:'
+  ContinueBlockMath:
+    Text: ' (-{0} bloki)'
+  EndBlockMath:
+    Text: ' = {0} pozostałe bloki do wydania'
+  NoClaimDuringPvP:
+    Text: Nie możesz zajmować ląd podczas walki PVP.
+  UntrustAllOwnerOnly:
+    Text: Tylko właściciel działki może wyczyścić jej wszystkie uprawnienia.
+  ManagersDontUntrustManagers:
+    Text: Tylko właściciel działki może zwolnić menedżera.
+  BookAuthor:
+    Text: BigScary
+  BookTitle:
+    Text: Jak zająć działkę
+  BookIntro:
+    Text: Zajmji działkę by chronić swoich rzeczy!  Kliknij na link u góry by nauczyć się o działkach
+      w 3 minuty lub mniej.  :)
+  BookDisabledChestClaims:
+    Text: '  Na tym serwerze stawianie skrzyni NIE zajmie skrzyni dla ciebie.'
+  BookUsefulCommands:
+    Text: 'Przydatne polecenia:'
+  BookLink:
+    Text: 'Click: {0}'
+    Notes: '{0}: video URL'
+  BookTools:
+    Text: Narzędzia działek to {0} i {1}.
+    Notes: '0: claim modification tool name; 1:claim information tool name'
+  ResizeClaimTooNarrow:
+    Text: Ten nowy kształt będzie zbyt mały.  Działki muszą byc conajmniej {0} szerokie w blokach.
+    Notes: '0: minimum claim width'
+  ResizeClaimInsufficientArea:
+    Text: Ta działka byłaby zbyt mała.  Jakakolwiek działka musi być conajmniej {0} totalnych bloków działki.
+    Notes: '0: minimum claim area'
+  NoProfanity:
+    Text: Proszę patrz na swój język.
+  PlayerNotIgnorable:
+    Text: Nie możesz ignorować tego gracza.
+  NoEnoughBlocksForChestClaim:
+    Text: Ponieważ nie masz dosyć dostępnych bloków działki, żadna automatyczna działka
+      nie była stworzona dla ciebie.  Możesz użyc /ClaimsList by monitorować ogólną liczbę bloków
+      działki.
+  IsIgnoringYou:
+    Text: Ten gracz cię teraz ignoruje.
+  MustHoldModificationToolForThat:
+    Text: Musisz trzymać złotą łopatę by to zrobić.
+  StandInClaimToResize:
+    Text: Stań w środku działki jak chcesz zmodyfikować wielkość.
+  ClaimsExtendToSky:
+    Text: Działki zawsze zajmują się do maksymalnej wysokości budowania.
+  ClaimsAutoExtendDownward:
+    Text: Działki automatycznie przeciągają się pod ziemię kiedy stawiasz bloki pod nimi.
+  MinimumRadius:
+    Text: Minimalne pole to {0}.
+    Notes: '0: minimum radius'
+  RadiusRequiresGoldenShovel:
+    Text: Określając promień pola, musisz trzymać złotą łopatę.
+  ClaimTooSmallForActiveBlocks:
+    Text: Ta działka nie jest duża do wspierania bloków aktywnych (lejki,
+      spawnery, beacony...).  Najpierw zrób większą działkę.
+  TooManyActiveBlocksInClaim:
+    Text: Ta działka ma limit na bloki aktywne (lejki, spawnery, beacony...).  albo
+      zrób większą działkę, albo najpierw usuń jakieś aktywne bloki.
+  ConsoleOnlyCommand:
+    Text: Ta komenda może być tylko wykorzystana z konsoli serwera.
+  WorldNotFound:
+    Text: świat nie znaleziony.
+  AdjustBlocksAllSuccess:
+    Text: Dostosowano wszystkich graczy online' bonusowe bloki działki o {0}.
+    Notes: '0: adjustment amount'
+  TooMuchIpOverlap:
+    Text: Przepraszamy, Jest zbyt dużo osób zalogowanych na twój adres IP.
+  StandInSubclaim:
+    Text: Musisz siedzieć w środku poddziale by ją ograniczyć.
+  SubclaimRestricted:
+    Text: Uprawnienia nie będą już dziedziczyć podziału nadrzędnego
+  SubclaimUnrestricted:
+    Text: Uprawnienia teraz będą dziedziczyć podziału nadrzędnego
+  NetherPortalTrapDetectionMessage:
+    Text: Wydaje się że utknąłeś w portalu. Uratujemy cię za
+      kilka sekund jeżeli tak jest!
+    Notes: Sent to player on join, if they left while inside a nether portal.
